@@ -1,0 +1,101 @@
+body {
+    background: gray;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+input[type=number] {
+    background-color: white;
+    color: black;
+    border: none;
+    font-size: 300%;
+    width: 60%;
+}
+
+.headerDiv {
+    float: left;
+    width: 30%;
+    color: white;
+    font-weight: bolder;
+}
+
+.ledDiv {
+    float: right;
+    width: 20%;
+    color: white;
+    font-weight: bolder;
+}
+
+.countDiv {
+    float: left;
+    width: 50%;
+}
+
+.ledOff {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: red;
+    margin: 0 auto;
+}
+
+.ledOn {
+    background: green;
+}
+
+.dip {
+    height: 100%;
+    width: 10%;
+    float: left;
+}
+
+p {
+    margin: 5px;
+    font-size: 15px;
+    font-size: 2vw;
+}
+
+.switch {
+    height: 50%;
+    width: auto;
+    background: black;
+    cursor: pointer;
+    transition: 0.5s;
+    margin: 5px;
+}
+
+.switchId {
+    color: white;
+    text-align: center;
+    font-weight: 800;
+
+}
+
+.switchBackground {
+    height: 80%;
+    border: 1px solid black;
+    margin: auto;
+    background: white;
+
+}
+
+.switchClick {
+    transform: translateY(80%);
+}
+
+.container {
+    height: 150px;
+    background: steelblue;
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.container-header {
+    background: steelblue;
+    width: 60%;
+    height: 60px;
+    margin: 0 auto;
+    padding: 10px;
+    overflow: hidden;
+}
